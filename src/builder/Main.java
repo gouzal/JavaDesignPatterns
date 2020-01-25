@@ -31,7 +31,7 @@ public class Main {
         builder = new CarBuilder();
         builder.setGPSNavigator(new GPSNavigator("RABAT"));
         result = builder.getResult();
-        
+        result.setFuel(120);
         System.out.println(result);
     }
 
